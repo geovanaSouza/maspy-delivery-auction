@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maspy-delivery-auction"
+version = "0.1.0"
+description = "Driver delivery auction implementation using Maspy."
+requires-python = ">=3.12"
+dependencies = [
+    "maspy-ml==2026.5.13",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
